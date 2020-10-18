@@ -1,0 +1,134 @@
+/* Reset CSS (DO NOT DELETE) */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: verdana;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header{
+  height: 120px;
+  width: auto;
+  background-color: rgba(245,245,244, 1);
+  border-radius: 50px;
+  text-align: center;
+}
+
+.header-top{
+  background-color: #313130;
+  height:50px;
+  width:100%;
+}
+
+.mamba{
+  width:50px;
+  height: auto;
+}
+
+.mamba:hover{
+  padding-top:40px;
+  width:auto;
+  height: 500px;
+}
+
+.logo{
+  width:auto;
+  height:30px;
+  margin-top:20px;
+}
+
+.header-left{
+  float:left;
+  background-color: rgba(245,245,244, 1);
+}
+
+.header-right{
+  float: right;
+  transition: all 0.5s;
+}
+
+.header-right a {
+  line-height: 50px;
+  float:left;
+  padding: 0 25px;
+  margin:10px 10px;
+  color: black;
+  display: inline-block;
+  border-radius:20px;
+}
+
+.login:hover {
+  background-color: rgba(25, 32, 34, 0.3);
+  font-weight: bold;
+}
+
+.top-wrapper{
+  height:250px;
+  padding:100px 0;
+  background-image: url(https://i.pinimg.com/originals/a2/8e/86/a28e86ae270223c24969a0941e112607.gif);
+  background-size:50%;
+  background-position: top;
+  color: white;
+}
+
+.container{
+  width:1170px;
+  margin:0 auto;
+}
+
+.tulisan{
+  border-radius: 10px;
+  margin-right: 25px;
+  margin-top: 50px;
+  padding: 25px 25px;
+  float:right;
+  text-align: right;
+  background-color: rgba(25, 32, 34, 0.7);
+}
+
+.top-wrapper h1{
+  font-size:45px;
+  letter-spacing:1px;
+  margin-bottom:10px;
+  margin-top: 15px;
+  color:white;
+  float:right;
+}
+
+.top-wrapper h2{
+  color:white;
+  padding-top: 10px;
+  float: right;
+  margin-bottom:10px;
+  margin-top: 20px;
+}
+
+.btn-wrapper{
+  margin:20px 0;
+  float:left;
+}
+
+.btn{
+  padding:12px 24px;
+  color:white;
+  opacity:0.7;
+  display:inline-block;
+  border-radius: 4px;
+}
+
+.signup{
+  background-color:#239b76;
+  opacity:0.8;
+}
